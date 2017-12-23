@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+
+
+public class class_one {
+
+	public static void main(String[] args) {
+	
+		
+		int fnumber, snumber, addition;
+		String name;
+	
+		Scanner reader = new Scanner(System.in);
+		System.out.println("So first of all, welcome to the addition calculator");
+		System.out.println("What is your name?");
+		name = reader.nextLine();
+		System.out.println(name + " " + "That is a great name");
+		System.out.println(name + " " + "please insert first number:");
+		fnumber = reader.nextInt();
+		System.out.println(name + " " + "please insert second number");
+		snumber = reader.nextInt();
+		addition = fnumber + snumber;
+		System.out.println("The answer to your addition is" + " " + addition);
+		System.out.println("");
+		System.out.println("I hope you have a nice day" + " " + name);
+		
+		
+		
+		
+		reader.close();
+	}
+	
+}
